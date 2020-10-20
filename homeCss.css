@@ -1,0 +1,166 @@
+a, a:focus, a:hover {
+  color: #fff;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus
+{
+  color: #3a333a;
+  text-shadow: none;
+  background-color: #fff;
+  border: .2rem solid #fff;
+  text-align: center;
+}
+
+.btn-secondary:hover
+{
+  background-color: #CFC2FF;
+}
+
+html,
+body
+{
+  height: 100%;
+  background-color: #3a333a;
+}
+
+body
+{
+  display: -ms-flexbox;
+  display: -webkit-box;
+
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 4rem rgba(0, 0, 0, .7);
+}
+
+iframe {
+  filter: hue-rotate(45deg) grayscale(.85);
+}
+
+img {
+  width:2rem;
+}
+
+.cover-container
+{
+  max-width: 42em;
+}
+
+.masthead
+{
+  margin-bottom: 2rem;
+}
+
+.masthead-brand
+{
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link
+{
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus
+{
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link+.nav-link
+{
+  margin-left: 1rem;
+}
+
+.nav-masthead .active
+{
+  color: #fff;
+  border-bottom-color: #CFC2FF;
+}
+
+@media (min-width: 48em)
+{
+  .masthead-brand
+  {
+    float: left;
+  }
+
+  .nav-masthead
+  {
+    float: right;
+  }
+}
+
+.cover
+{
+  padding: 0 1.5rem;
+}
+
+.cover .btn-lg
+{
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+.modal {
+  color: black;
+}
+
+.article {
+  font-family: cursive;
+}
+
+.mediaIcons {
+      display: inline;
+
+}
+
+.fab {
+      font-size: 40px;
+      display: inline-block;
+      padding: 15px;
+}
+
+.fa-facebook {
+      color: dodgerblue;
+}
+
+.fa-twitter {
+      color: cyan;
+}
+
+.fa-instagram {
+      background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+        background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%);
+        background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+       -webkit-text-fill-color:transparent;
+}
+
+.container {
+  max-width: 960px;
+  color: black;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
